@@ -1,0 +1,370 @@
+
+* {
+box-sizing: border-box;
+}
+
+div {
+	display: block;
+}
+
+.row {
+  margin: 10px 0;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 100px;
+}
+
+.exemple-title {
+	margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+
+/* ----------------------------------
+ * Navbar
+ * ---------------------------------- */
+
+.container-nav {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ----------------------------------
+ * Footer
+ * ---------------------------------- */
+
+.fixed-footer{
+    bottom: 0;
+    position: fixed;   
+    padding: 10px 0;
+    width: 100%;     
+}
+
+/* ----------------------------------
+ * Form
+ * ---------------------------------- */
+
+.custom-file, .input-group-append {
+	margin-top: 0px;
+	width: 50%;
+}
+
+/* ----------------------------------
+ * Banners
+ * ---------------------------------- */
+
+.banner-category {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.jumbotron {
+	height: 800px;
+}
+
+.banner-container {
+		text-align: center;
+ }
+
+/* ----------------------------------
+ * Cards Event Index
+ * ---------------------------------- */
+
+ .card-img-top {
+  height: 230px;
+  width: 320px;
+ }
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 15px 0px;
+}
+
+.card-text {
+  font-size: 12px;
+  opacity: .7;
+  margin: 15px 0px;
+}
+
+.card-event {
+	width: 322px;
+}
+
+
+
+/* ----------------------------------
+ * Cards Event Details
+ * ---------------------------------- */
+
+.card-recipe {
+  overflow: hidden;
+  background: white;
+  height: 600px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-recipe > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-recipe h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0px;
+}
+
+.card-recipe p {
+  font-size: 14px;
+  opacity: .7;
+  margin: 0;
+}
+
+.card-recipe .card-recipe-infos {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.card-recipe-infos {
+	height: 390px;
+	align-items: flex-end;
+}
+
+.card-recipe-infos .card-recipe-user {
+  position: absolute;
+  right: 16px;
+  top: -20px;
+  width: 40px;
+}
+
+.ressource-description {
+	height: 350px;
+	width: 550px;
+	text-align: justify;
+}
+
+/* ----------------------------------
+ * Cards Recipe
+ * ---------------------------------- */
+
+.card-recipe {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-recipe > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-recipe h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0px;
+}
+
+.card-recipe p {
+  font-size: 14px;
+  opacity: .7;
+  margin: 0;
+}
+
+
+.card-recipe .card-recipe-infos {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.card-recipe-infos .card-recipe-user {
+  position: absolute;
+  right: 16px;
+  top: -20px;
+  width: 40px;
+}
+
+
+/* ----------------------------------
+ * Cards Avatars
+ * ---------------------------------- */
+
+.card-avatar {
+  overflow: hidden;
+  height: 100px;
+  width: 100%;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+}
+
+.card-avatar img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+}
+
+.card-avatar h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-avatar p {
+  font-size: 14px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-avatar .card-avatar-infos {
+  padding: 16px;
+}
+
+/* ----------------------------------
+ * Cards City
+ * ---------------------------------- */
+
+.card-city {
+	width: 100%;
+	height: 750px;
+}
+
+.card-img-top-event {
+	width: 100%;
+	height: 420px;
+}
+
+
+/* ----------------------------------
+ * Avatars
+ * ---------------------------------- */
+
+ .avatar {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.avatar-large {
+  width: 56px;
+  border-radius: 50%;
+}
+
+.avatar-bordered {
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+}
+
+.avatar-square {
+  width: 40px;
+  border-radius: 0px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  border: white 1px solid;
+}
+
+/* ----------------------------------
+ * Cards Recipe
+ * ---------------------------------- */
+
+ .featurette {
+ 	  vertical-align: middle;
+ 	  align-items: center;
+ }
+
+/* ----------------------------------
+ * Cards Bonus
+ * ---------------------------------- */
+
+ .cards-bonus {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
