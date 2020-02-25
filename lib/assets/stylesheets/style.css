@@ -126,7 +126,7 @@ div {
 .card-recipe {
   overflow: hidden;
   background: white;
-  height: 600px;
+  height: 800px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
@@ -152,12 +152,12 @@ div {
   padding: 16px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+
   position: relative;
 }
 
 .card-recipe-infos {
-	height: 390px;
+	height: 590px;
 	align-items: flex-end;
 }
 
@@ -169,54 +169,31 @@ div {
 }
 
 .ressource-description {
-	height: 350px;
+	height: 500px;
+	width: 550px;
+	text-align: justify;
+	align-self:  start;
+	margin: 15px 0;
+}
+
+.social-media {
+	height: 32px;
 	width: 550px;
 	text-align: justify;
 }
 
-/* ----------------------------------
- * Cards Recipe
- * ---------------------------------- */
-
-.card-recipe {
-  overflow: hidden;
-  background: white;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+a, a:hover {
+	text-decoration: none;
 }
 
-.card-recipe > img {
-  height: 200px;
-  width: 100%;
-  object-fit: cover;
+.socialbtns .fa:hover {
+	color: #ffffff;
+	background-color: #000;
+	border: 1px solid #000;
+		text-align: justify;
+	align-self:  end;
 }
 
-.card-recipe h2 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 5px 0px;
-}
-
-.card-recipe p {
-  font-size: 14px;
-  opacity: .7;
-  margin: 0;
-}
-
-
-.card-recipe .card-recipe-infos {
-  padding: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  position: relative;
-}
-
-.card-recipe-infos .card-recipe-user {
-  position: absolute;
-  right: 16px;
-  top: -20px;
-  width: 40px;
-}
 
 
 /* ----------------------------------
@@ -301,7 +278,7 @@ div {
 }
 
 /* ----------------------------------
- * Cards Recipe
+ * Index Trio
  * ---------------------------------- */
 
  .featurette {
@@ -367,4 +344,31 @@ div {
   .cards {
     grid-template-columns: 1fr 1fr 1fr;
   }
+}
+
+/* ----------------------------------
+ * Bonus
+ * ---------------------------------- */
+
+.page-section {
+  padding: 100px 0;
+}
+
+.page-section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.page-section h3.section-subheading {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 40px;
+  text-transform: none;
+}
+
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
 }
